@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="script.js" defer></script>
+    <title>Pomodoro</title>
+</head>
+<body>
+    <div>
+        <div class="pomodoro-card">
+            <div class="session-badge">
+                <span class="session-label" id="sessionTypeLabel">🍅 Pomodoro</span>
+                <span class="session-label" id="sessionTypeLabel">☕ Short Break</span>
+                <span class="session-label" id="sessionTypeLabel">🍃 Long Break</span>
+            </div>
+
+            <div class="timer-container">
+                <div class="timer">
+                    <div id="timerDisplay">25:00</div>
+                    <div class="status-message" id="statusMessage">
+                        Ready to focus
+                    </div>
+                </div>
+            </div>
+            <div class="button-panel">
+                <button class="btn btn-primary" id="startBtn">
+                    <i class="fas fa-play"></i> Start
+                </button>
+                <button class="btn btn-secondary" id="pauseBtn">
+                    <i class="fas fa-pause"></i> Pause
+                </button>
+                <button class="btn btn-warning" id="resetBtn">
+                    <i class="fas fa-undo-alt"></i> Reset
+                </button>
+                <button class="btn btn-skip" id="skipBtn">
+                    <i class="fas fa-forward"></i> Skip
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

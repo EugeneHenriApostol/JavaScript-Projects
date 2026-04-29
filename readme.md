@@ -1,0 +1,1 @@
+This repository is about projects I made using HTML, CSS, and JavaScript without using frameworks and libraries. This is to supplement my learning about frontend development and deeply understanding the core concepts and fundamentals
